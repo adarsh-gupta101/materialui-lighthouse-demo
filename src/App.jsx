@@ -127,22 +127,19 @@ function RegistrationForm() {
 
   return (
     <ThemeProvider theme={theme}>
-      <Typography variant="h2" mb={3}>
-      </Typography>
+      <Typography variant="h2" mb={3}></Typography>
       <Grid
-        container
+        display="flex"
         justifyContent="center"
         alignItems="center"
         sx={{
           minHeight: "100vh",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-
-
+          // background: "red",
+          width: "fit-content",
+          margin: "auto",
         }}
       >
-        <Grid container spacing={4}>
+        <Grid container spacing={4} sx={{width:"fit-content",margin:"auto",display:"flex",justifyContent:"center",}}>
           <Grid item xs={12} md={8}>
             <Paper sx={{ p: 4 }} elevation={3}>
               <Typography variant="h5" mb={3}>
