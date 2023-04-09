@@ -142,7 +142,7 @@ function RegistrationForm() {
 
         }}
       >
-        <Grid container spacing={4} marginLeft={45}>
+        <Grid container spacing={4}>
           <Grid item xs={12} md={8}>
             <Paper sx={{ p: 4 }} elevation={3}>
               <Typography variant="h5" mb={3}>
